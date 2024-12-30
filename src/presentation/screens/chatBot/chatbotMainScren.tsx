@@ -13,7 +13,8 @@ import Anthropic from '@anthropic-ai/sdk';
 import { globalColors, globalStyles } from '../../themes/Themes';
 
 // Clave API de Anthropic (se recomienda usar un .env en proyectos reales)
-const API_KEY = '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';
+//La clave ha sido vencida
+const API_KEY = 'none';
 
 const anthropic = new Anthropic({
     apiKey: API_KEY,
